@@ -3,6 +3,8 @@ An hardware for random password generation that uses human inputs to generate a 
 
 It has been made using an [Arduino Pro Micro](https://www.sparkfun.com/tutorials/337), that can actually emulate a Keyboard. 
 
+Unfortunately all the (functioning) interrupts were occupied by the display, so I had to be a little bit creative with the code. 
+
 ## Features
 * Seed generation and improvement. The seed is an unsigned long int, and it is modified using addition and/or multiplicationaccording to how many times and for how long a button is pressed. 
 * Alphanumeric password or with symbols. Passwords are 256 character long.
